@@ -1,22 +1,9 @@
-/*html{
-  @include tablets{
-    font-size: 15px;
-  }
-
-  @include phones{
-    font-size: 14px;
-  }
-}
 
 body {
   margin: 0;
   padding: 0;
-  
-  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
-  line-height: 1.42;
-  color: $dark;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "FiraSans", Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 *, *::before, *::after { 
@@ -26,7 +13,9 @@ body {
 body, html {
   height: 100%;
 }
-
+a{
+  color:#03a9f4;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -35,7 +24,7 @@ ul {
 li{
   list-style: none;
 }
-p,h3,h4{
+p,h3,h4,h2{
   padding: 0;
   margin:0;
 }
@@ -44,20 +33,20 @@ img, embed, object, video {
   height: auto;
  }
 
- input[type="submit"],
+input[type="submit"],
 input[type="reset"],
 input[type="button"],
 button {
   background: none;
   border: 0;
   color: inherit;
-  /* cursor: default; *//*
+   cursor: default; 
   font: inherit;
   line-height: normal;
   overflow: visible;
   padding: 0;
   -webkit-appearance: button; /* for input */
- /* -webkit-user-select: none; /* for button *//*
+  -webkit-user-select: none; /* for button */
      -moz-user-select: none;
       -ms-user-select: none;
 }
@@ -67,7 +56,6 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-/* Make `a` like a button *//*
 [role="button"] {
   color: inherit;
   cursor: default;
@@ -78,4 +66,4 @@ button::-moz-focus-inner {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-}*/
+}

@@ -1,0 +1,60 @@
+.header{
+    background-color: $green;
+    height: 90px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.header__container{
+    width: $width__header;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
+.social__item-link{
+    display: inline-block;
+}
+.social{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.header__left{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.info{
+    margin-left: 16px;
+}
+.header__right{
+    width: 50%;
+}
+.header__left-icon{
+    width: 64px;
+    height: 64px;
+    background-color: rgb(246, 246, 246);
+    border-width: 2px;
+    border-color: rgb(215, 215, 215);
+    border-style: solid;
+    border-radius: 50%;
+    background-image: url("../img/content/icon.jpg");
+    display: inline-block;
+}
+.info__name{
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-transform: capitalize; 
+}
+.info__mail{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 2;
+}
+.social__item{
+    margin-left: 16px;
+}
+.social__item:first-child{
+    margin-left: 0px;
+}

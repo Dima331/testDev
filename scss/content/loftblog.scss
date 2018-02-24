@@ -1,0 +1,119 @@
+.course{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.content{
+    width: 300px;
+    padding: 10px 20px 0 20px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.course__item-img{
+    height: 170px;
+  // border-bottom: 5px solid $green;
+}
+.loftblog{
+    margin-bottom: 44px;
+}
+.content__title{
+    font-size: 21px;
+    color: rgb(33, 33, 33);
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.content__text{
+    font-size: 13px;
+    color: #727272;
+    line-height: 1.65;
+    margin-bottom: 30px;
+}
+.content__time{
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+    line-height: 1.5;
+}
+.course__check{
+    font-size: 18px;
+    line-height: 1.556;
+    color: rgb(114, 114, 114);
+    height: 60px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.course__item{
+    align-self: end;
+    margin-bottom: 20px;   
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2); 
+}
+input[type="checkbox"]{
+    @extend .visually-hidden;
+}
+
+
+input[type="checkbox"]+label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #b6b6b6;
+    vertical-align: middle;
+    line-height: 1;
+    font-weight: 900;
+    margin-right: 20px;
+
+}
+.checkbox__label{
+    font-size: 18px;
+    color: rgb(114, 114, 114);
+    line-height: 1.556;
+}
+
+input[type="checkbox"]:checked + label:before {
+    content: "\2714";
+    font-size: 13px;
+    color:#ffffff;
+    background-clip: content-box;
+    background: #acd27d;
+    border: 2px solid #acd27d;
+    vertical-align: middle;
+    line-height: 1;
+    font-weight: 900;
+    text-align: center;
+}
+
+.ert{
+    top:20px;
+}
+
+
+
+
+
+
+
+
+.img1{
+    background-image: url(../img/content/js.jpg);
+}
+.img2{
+    background-image: url(../img/content/2.jpg);
+}
+.img3{
+    background-image: url(../img/content/3.jpg);
+}
+.img4{
+    background-image: url(../img/content/4.jpg);
+}
+.img5{
+    background-image: url(../img/content/5.jpg);
+}
+.img6{
+    background-image: url(../img/content/6.jpg);
+}
+
+

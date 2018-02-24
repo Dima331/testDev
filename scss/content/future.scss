@@ -1,0 +1,29 @@
+.future{
+    margin-top: 80px;
+    margin-bottom: 182px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about__item{
+    display: flex;
+    width: 49%;
+}
+.about__item-img{
+  margin-right: 20px;
+}
+.about__item-text{
+    flex: 1 1 100px;
+}
+.block__title{
+    font-size: 21px;
+    color: rgb(33, 33, 33);
+    margin-bottom: 10px;
+}
+.block__text{
+    font-size: 14px;
+    color: rgb(114, 114, 114);
+    line-height: 1.5;
+}
+
