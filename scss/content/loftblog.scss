@@ -84,16 +84,18 @@ input[type="checkbox"]:checked + label:before {
     line-height: 1;
     font-weight: 900;
     text-align: center;
+    .course__check{
+        background-color:  #acd27d;
+    }
 }
-
-.ert{
-    top:20px;
+.course__item:hover{
+    .course__item-img {
+        border-bottom: 5px solid $green;
+    }
+    .content__title{
+        color: #8cc34b;
+    }
 }
-
-
-
-
-
 
 
 
